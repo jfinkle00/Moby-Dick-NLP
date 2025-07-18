@@ -25,7 +25,6 @@ moby_dick <- read_csv("~/Desktop/mobydick.txt")
 # Load the data as a corpus
 docs <- Corpus(VectorSource(moby_dick))
 
-inspect(docs)
 
 toSpace <- content_transformer(function (x , pattern ) gsub(pattern, " ", x))
 docs <- tm_map(docs, toSpace, "/")
@@ -48,7 +47,7 @@ docs <- tm_map(docs, removePunctuation)
 # Eliminate extra white spaces
 docs <- tm_map(docs, stripWhitespace)
 # Text stemming
-# docs <- tm_map(docs, stemDocument)
+docs <- tm_map(docs, stemDocument)
 
 #Term Document Matrix
 
