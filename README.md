@@ -23,7 +23,8 @@ mobydick.txt — Text file containing the raw novel
 
 Output — Word cloud image rendered via RMarkdown
 
-<img width="1202" height="912" alt="image" src="https://github.com/user-attachments/assets/40cbeee4-fb1e-45a2-9153-2a8c811812e4" />
+<img width="1202" height="912" alt="image" src="https://github.com/user-attachments/assets/17dac0ae-2775-48c7-9075-ee83aaa76a9b" />
+
 
 
 How to Run
